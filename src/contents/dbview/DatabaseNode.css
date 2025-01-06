@@ -1,0 +1,38 @@
+.boxreg {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 8px; 
+    border-radius: 8px 8px 0 0;
+    background-color: #3d5787;
+    color: white;
+  }
+  
+.table-name {
+    padding-left: 10px;
+  }
+  
+.addBtn {
+    padding: 5px 10px; 
+    font-size: 16px; 
+    border: blue; 
+    background-color: #fff; 
+    color: #3d5787;
+    border-radius: 10px; 
+    cursor: pointer; 
+    right: 10px;
+    transition: all 0.3s ease; 
+  }
+
+.addBtn:hover {
+    background-color: aqua; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-4px); 
+  }
+
+
+.addBtn:active {
+    background-color: lightblue; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+  }

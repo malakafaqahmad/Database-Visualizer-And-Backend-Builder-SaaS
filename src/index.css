@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #272731;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #444cf7, #565675), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 6px, transparent 12px, transparent 6px);
+  background-blend-mode: multiply;
+} 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}  

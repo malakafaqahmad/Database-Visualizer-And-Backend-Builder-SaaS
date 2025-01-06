@@ -1,0 +1,109 @@
+.vertical-bar {
+    position: fixed;
+    top: 27%;
+    left: 2%;
+    width: 50px;
+    height: 44vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+.collapse-btn{
+    position: fixed;
+    left: 2%;
+    max-width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1001;
+
+}
+
+.clp-btn{
+    position: fixed;
+    max-width: 50px;
+    top: 21%;
+    max-height: fit-content;
+    padding: 5px 16px;
+    font-size: 12px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.clp-btn:hover{
+    color: #00b4d8;
+    transform: scale(1.1);
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.9);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #00b4d8;
+    transform: scale(1.1);
+  }
+  
+  .icon span {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  
+  .drawing-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .drawing-icon::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Position the line below the icon */
+    left: 0;
+    width: 0;
+    height: 2px; /* Line thickness */
+    background: rgba(157, 4, 4, 0.8); /* Line color */
+    transition: width 1s ease-in-out;
+  }
+  
+  .drawing-icon:hover::after {
+    width: 100%; /* Expand the line width on hover */
+  }
+  
+  .drawing-icon:hover {
+    animation: move 1s ease-in-out;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(15px); /* Adjust movement */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .setting:hover {
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
