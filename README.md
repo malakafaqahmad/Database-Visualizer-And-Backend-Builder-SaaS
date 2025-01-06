@@ -1,7 +1,6 @@
 # **AI-Driven Database Designer And Builder**
 
 [![Watch the video](https://img.youtube.com/vi/4G6I0xbLszg/0.jpg)](https://youtu.be/4G6I0xbLszg)
-watch the video
 ## **Overview**
 
 AI-Driven Database Designer is an innovative web application built with React, leveraging AI and Large Language Models (LLMs) to help users create comprehensive databases from scratch. This application simplifies the process of database design, allowing users to intuitively structure their databases using a futuristic interface and AI-powered suggestions and Full Automation.
